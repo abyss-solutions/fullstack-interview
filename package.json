@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-interview",
+  "version": "1.0.0",
+  "description": "Full stack Javascript Developer Interview Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -n client,server -c red,green \"yarn client\" \"yarn server\"",
+    "client": "yarn --cwd ./client start",
+    "server": "yarn --cwd ./server start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abyss-solutions/full-stack-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abyss-solutions/full-stack-interview/issues"
+  },
+  "homepage": "https://github.com/abyss-solutions/full-stack-interview#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}

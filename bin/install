@@ -1,0 +1,5 @@
+#!/bin/sh
+cd "$(dirname "$0")/.."
+yarn
+cd client && yarn && cd ..
+cd server && yarn && cd ..
