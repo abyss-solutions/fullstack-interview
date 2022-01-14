@@ -30,10 +30,10 @@ After having read through the challenge, you will be given 5 minutes to plan out
 
 You will send the current board layout from the server to the client and render the layout on the web app.
 
-board - 2d array each cell has value 0,1,2 where 0 is unfilled and 1=player1 2=player2
-server to have endpoint for board request which returns the board data
-use short polling from client to request board via http (websockets would be a better realtime solution)
-rendering board in client to be simple grid of 0,1 or 2
+* board - 2d array each cell has value 0,1,2 where 0 is unfilled and 1=player1 2=player2
+* server to have endpoint for board request which returns the board data
+* use short polling from client to request board via http (websockets would be a better realtime solution)
+* rendering board in client to be simple grid of 0,1 or 2
 
 
 
